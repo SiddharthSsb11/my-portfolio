@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "sources": [
+        "namestyles.scss",
+        "namestyles.css"
+    ],
+    "names": [],
+    "mappings": "AACI;EACI,qBAAA;EACA,sBAAA;ACAR",
+    "file": "namestyles.css"
+}
