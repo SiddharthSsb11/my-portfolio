@@ -5,6 +5,7 @@ import SocialLinks from "../../../components/SocialLinks";
 import DownloadIcon from "@mui/icons-material/Download";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import resumeUrl from "../../../constants/resume";
 
 const contactButtonStyles = {
   width: "fit-content",
@@ -28,9 +29,6 @@ const contactButtonStyles = {
     borderColor: "primary.main",
   },
 };
-
-const resumeUrl =
-  "https://drive.google.com/file/d/1xoiV0fLRH8MxWDcXvdE7eyjz-y6w-ry_/view?usp=sharing";
 
 const Contact = () => {
   const navigate = useNavigate();
@@ -169,7 +167,7 @@ const Contact = () => {
                 textShadow: "1px 1px 7px rgba(10,10,10,.75)",
               }}
             >
-              Siddharth Bhadauriya
+              Siddharth Singh Bhadauriya
             </Typography>
             <Typography
               sx={{
@@ -188,7 +186,7 @@ const Contact = () => {
             <Box>
               <IconButton
                 size="small"
-                href="tel:3234817852"
+                href="tel:7742705662"
                 sx={contactButtonStyles}
                 disableRipple
               >
@@ -203,7 +201,7 @@ const Contact = () => {
                   }}
                   fontWeight={400}
                 >
-                  (323) 481 - 7852
+                  (+91) 77427 05662
                 </Typography>
               </IconButton>
             </Box>
