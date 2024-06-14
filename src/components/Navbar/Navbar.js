@@ -8,7 +8,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 import "./navbar.scss";
 import LinksModal from "./LinksModal";
-import Logo from "../Logo";
 
 const Navbar = () => {
   const location = useLocation();
@@ -99,7 +98,9 @@ const Navbar = () => {
             </Typography>
           </Link>
           <Link component={NavLink} to="/about" draggable={false}>
-            <Typography fontSize={{ md: 15, lg: 16, xl: 17 }}>About</Typography>
+            <Typography fontSize={{ md: 15, lg: 16, xl: 17 }}>
+              About / Skills
+            </Typography>
           </Link>
           <Link component={NavLink} to="/contact" draggable={false}>
             <Typography fontSize={{ md: 15, lg: 16, xl: 17 }}>
