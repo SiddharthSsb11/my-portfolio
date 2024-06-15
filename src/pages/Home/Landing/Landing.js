@@ -2,7 +2,6 @@ import { Grid, Typography, Link, IconButton, Box, Fade } from "@mui/material";
 import { Link as ReactLink } from "react-router-dom";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import SocialLinks from "../../../components/SocialLinks";
-import FirstName from "./FirstName";
 import { keyframes } from "@mui/system";
 
 const linkStyles = {
@@ -145,7 +144,7 @@ const Landing = ({ subIntroRef }) => {
             >
               <Box>
                 <Typography variant="h1" sx={nameStyles}>
-                  Bhaduariya
+                  Bhadauriya
                 </Typography>
               </Box>
             </Fade>
@@ -277,7 +276,7 @@ const Landing = ({ subIntroRef }) => {
                 draggable={false}
                 sx={{ position: "relative" }}
               >
-                <Typography sx={linkStyles}>About</Typography>
+                <Typography sx={linkStyles}>About / Skills</Typography>
               </Link>
             </Box>
             <Box

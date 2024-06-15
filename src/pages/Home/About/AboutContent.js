@@ -113,7 +113,7 @@ const AboutContent = ({ isVisible }) => {
                     sx={{ letterSpacing: 0.75 }}
                   >
                     {" "}
-                    Siddharth Bhadauriya
+                    Siddharth Singh Bhadauriya
                   </Box>
                   <Box component="span" fontWeight={200} sx={{ opacity: 0.75 }}>
                     ,
@@ -158,11 +158,11 @@ const AboutContent = ({ isVisible }) => {
                     // pr: {xl: 2}
                   }}
                 >
-                  I studied Electronics & Communications. A big part of my
-                  knowledge is gained from self-studying through various online
-                  courses, tutorials, participating in different coding groups,
-                  and majorly from working with awesome people/colleagues in
-                  this tech industry.
+                  I studied Electronics & Communications Engineering. A big part
+                  of my knowledge is gained from self-studying through various
+                  online courses, tutorials, participating in different coding
+                  groups, and majorly from working with awesome
+                  people/colleagues in this tech industry.
                 </Typography>
               </Box>
             </Fade>

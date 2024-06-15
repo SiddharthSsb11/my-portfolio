@@ -64,7 +64,7 @@ const SubIntroduction = () => {
                 textShadow: "1px 1px 3px rgba(100,100,100,.25)",
               }}
             >
-              I design and develop Web & Phone apps from a
+              I code and develop Web & Mobile apps from a
               <Box component="span" fontWeight={400}>
                 {" "}
                 simple static screen{" "}

@@ -31,9 +31,10 @@ const chunkArray = (arr, chunkSize) => {
 
 const SkillsCarousel = ({ isVisible }) => {
   const [skillsList, setSkillsList] = useState([]);
-
+  const expertiseSkills = skills.slice(0, 20);
+  // console.log({ expertiseSkills });
   useEffect(() => {
-    setSkillsList(chunkArray(skills, 10));
+    setSkillsList(chunkArray(expertiseSkills, 10));
   }, []);
 
   return (
