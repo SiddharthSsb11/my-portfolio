@@ -63,8 +63,8 @@ const Introduction = () => {
                 my code-pushed projects
               </Box>{" "}
               that I still continue to develop and improve over time. Please
-              feel free to check out the deployed demo or git repository of my
-              projects, and message me for any remarks or suggestions.
+              feel free to check out the deployed demo or github repository of
+              my projects, and message me for any remarks or suggestions.
             </Typography>
           </Box>
         </Fade>

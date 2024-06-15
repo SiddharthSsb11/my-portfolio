@@ -11,7 +11,6 @@ const ProjectImages = ({ images, handleImageClick }) => {
     delay: 250,
     triggerOnce: true,
   });
-
   return (
     <Grid
       container
@@ -86,6 +85,7 @@ const ProjectImages = ({ images, handleImageClick }) => {
                         sx={{
                           textShadow: "1px 1px 3px rgba(100,100,100,.5)",
                           fontSize: { xs: 13, sm: 15, md: 16, lg: 17, xl: 19 },
+                          pl: 1,
                         }}
                       >
                         {item.title}
@@ -111,6 +111,7 @@ const ProjectImages = ({ images, handleImageClick }) => {
                           lineHeight: 1.6,
                           opacity: 0.6,
                           display: { xs: "none", lg: "inline-block" },
+                          pl: 1,
                         }}
                       >
                         {item.description}

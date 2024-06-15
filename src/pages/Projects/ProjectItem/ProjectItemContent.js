@@ -56,6 +56,7 @@ const ProjectItemContent = ({ project, nextProjectName, nextProjectTitle }) => {
           technologies={project.technologies}
           url={project.url}
           githubUrl={project.githubUrl}
+          platform={project.platform}
         />
       </Grid>
 

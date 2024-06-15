@@ -41,7 +41,6 @@ const slideRight = keyframes`
 `;
 
 const ProjectsShowcase = ({ isHovered, setIsHovered }) => {
-  console.log("--projects---", projects);
   const navigate = useNavigate();
   const { ref, inView } = useInView({
     threshold: 0,

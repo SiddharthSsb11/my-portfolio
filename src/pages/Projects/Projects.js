@@ -1,14 +1,6 @@
 import { useState, useEffect } from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
-import {
-  Grid,
-  Box,
-  Typography,
-  Fade,
-  Slide,
-  Button,
-  ButtonBase,
-} from "@mui/material";
+import { Grid, Box, Typography, Fade, Slide, ButtonBase } from "@mui/material";
 import Image from "mui-image";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import projects from "../../constants/projects";
@@ -18,12 +10,7 @@ import Introduction from "./Introduction";
 import ProjectSelection from "./ProjectSelection";
 import ProjectItem from "./ProjectItem/ProjectItem";
 
-//hooks
-// import useRootRedux from "../../hooks/useRootRedux";
-// import useProjectsRedux from "../../hooks/useProjectsRedux";
-
 const Projects = () => {
-  // const { projectsList, isLoading, error } = useProjectsRedux();
   return (
     <>
       <DocumentHead
@@ -47,7 +34,6 @@ const MainPage = ({ projects }) => {
   const [activeProject, setActiveProject] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const [isMounted, setIsMounted] = useState(true);
-  // const { imageKeys } = useRootRedux();
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -142,8 +128,8 @@ const MainPage = ({ projects }) => {
                   sx={{
                     opacity: 0.7,
                     transition: "all 1s ease",
-                    maxHeight: "45%",
-                    maxWidth: "50%",
+                    maxHeight: "75%",
+                    maxWidth: "75%",
                   }}
                 >
                   <Image

@@ -58,9 +58,9 @@ const ProjectItem = ({ projects }) => {
   return (
     <>
       <DocumentHead
-        title={`Paolo Bugarin | ${project && project.title}`}
-        description="I am a full stack web developer based in Los Angeles, California"
-        keyword="react, reactjs, redux, next, nextjs, node, nodejs, mern, express, expressjs, mongodb, sequelize, mysql, developer, fullstack developer, full stack developer, javascript"
+        title={`Siddharth Singh Bhadauriya | ${project && project.title}`}
+        description="I am a Software Developer based in Delhi NCR, India"
+        keyword="react, reactjs, redux, react native, mobx, javascript, typescript, node, software developer, expo, nodejs, mern, express, expressjs, mongodb, tailwind, material UI, chakra UI, stylesheet, developer, fullstack developer, full stack developer,"
       />
       <Box
         sx={{
