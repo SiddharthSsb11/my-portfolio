@@ -38,7 +38,7 @@ const SocialLinks = ({
           <LinkedInIcon sx={{ fontSize: iconSize }} color={color} />
         </IconButton>
       </Tooltip>
-      <Tooltip title="Facebook" arrow enterDelay={500} placement={placement}>
+      <Tooltip title="Dev Blogs" arrow enterDelay={500} placement={placement}>
         <IconButton
           size={buttonSize}
           target="_blank"
