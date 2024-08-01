@@ -39,7 +39,7 @@ const projects = [
       "Mobile Responsive UI",
     ],
     //url: "https://textalot.herokuapp.com/",
-    url: "",
+    url: "https://www.loom.com/share/339d7abfe1924bbd8cb53c0cc3fac551",
     githubUrl: "https://github.com/SiddharthSsb11/MERN-chat-app",
     images: [
       {
@@ -420,7 +420,7 @@ const projects = [
       "Mobile Responsive UI",
     ],
     // url: "https://buildbuy.herokuapp.com/",
-    url: "",
+    url: "https://www.loom.com/share/ec84cd9c386842ee8ee933b85fa50657",
     githubUrl: "https://github.com/SiddharthSsb11/MERN-E-Commerce",
     logo: {
       url: eCommerce.logo,
@@ -507,7 +507,7 @@ const projects = [
       "Mobile Responsive UI",
     ],
     // url: "https://paws-mern-dating.herokuapp.com/",
-    url: "",
+    url: "https://www.loom.com/share/35d07a7c96ed4aa5954b99a05142eada",
     githubUrl: "https://github.com/SiddharthSsb11/mern-project-paws",
     logo: {
       url: paws.logo,
