@@ -115,6 +115,26 @@ const ProjectUrlAndTechStack = ({ technologies, url, githubUrl, platform }) => {
         }}
         order={{ xs: 1, sm: 1 }}
       >
+        <Box
+          sx={{
+            opacity: 0,
+            animation: `${slideRight} 800ms ease forwards 1300ms`,
+          }}
+        >
+          <IconButton
+            size="small"
+            href={githubUrl}
+            target="_blank"
+            sx={urlButtonStyles}
+            disableRipple
+          >
+            <GitHubIcon
+              color="primary"
+              sx={{ fontSize: { xs: 19, sm: 22, md: 22, lg: 23 } }}
+            />
+            <Box component="span">Git Repo</Box>
+          </IconButton>
+        </Box>
         {url && (
           <Box
             sx={{
@@ -139,26 +159,6 @@ const ProjectUrlAndTechStack = ({ technologies, url, githubUrl, platform }) => {
             </IconButton>
           </Box>
         )}
-        <Box
-          sx={{
-            opacity: 0,
-            animation: `${slideRight} 800ms ease forwards 1300ms`,
-          }}
-        >
-          <IconButton
-            size="small"
-            href={githubUrl}
-            target="_blank"
-            sx={urlButtonStyles}
-            disableRipple
-          >
-            <GitHubIcon
-              color="primary"
-              sx={{ fontSize: { xs: 19, sm: 22, md: 22, lg: 23 } }}
-            />
-            <Box component="span">Git Repo</Box>
-          </IconButton>
-        </Box>
       </Grid>
 
       <Grid
