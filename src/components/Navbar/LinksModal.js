@@ -199,7 +199,7 @@ const LinksModal = ({ open, onClose }) => {
                 >
                   <Box>
                     <Typography variant="h1" sx={nameStyles}>
-                      Bhadauriya
+                      Bhadoriya
                     </Typography>
                   </Box>
                 </Fade>

@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <Stack>
       <DocumentHead
-        title="Siddharth Singh Bhadauriya | Home"
+        title="Siddharth Singh Bhadoriya | Home"
         description="I am a Software Developer based in Delhi NCR, India"
         keyword="react, reactjs, redux, react native, mobx, javascript, typescript, node, software developer, expo, nodejs, mern, express, expressjs, mongodb, tailwind, material UI, chakra UI, stylesheet, developer, fullstack developer, full stack developer,"
       />

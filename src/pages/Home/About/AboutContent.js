@@ -113,7 +113,7 @@ const AboutContent = ({ isVisible }) => {
                     sx={{ letterSpacing: 0.75 }}
                   >
                     {" "}
-                    Siddharth Singh Bhadauriya
+                    Siddharth Singh Bhadoriya
                   </Box>
                   <Box component="span" fontWeight={200} sx={{ opacity: 0.75 }}>
                     ,

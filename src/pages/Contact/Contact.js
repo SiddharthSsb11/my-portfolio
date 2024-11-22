@@ -24,7 +24,7 @@ const Contact = () => {
       }}
     >
       <DocumentHead
-        title="Siddharth Singh Bhadauriya | Contact"
+        title="Siddharth Singh Bhadoriya | Contact"
         description="I am a Software Developer based in Delhi NCR, India"
         keyword="react, reactjs, redux, react native, mobx, javascript, typescript, node, software developer, expo, nodejs, mern, express, expressjs, mongodb, tailwind, material UI, chakra UI, stylesheet, developer, fullstack developer, full stack developer,"
       />
@@ -68,7 +68,7 @@ const Contact = () => {
               mixBlendMode: "difference",
             }}
           >
-            © 2024 Siddharth Singh Bhadauriya, All rights reserved.
+            © 2024 Siddharth Singh Bhadoriya, All rights reserved.
           </Typography>
         </Box>
       </Grid>

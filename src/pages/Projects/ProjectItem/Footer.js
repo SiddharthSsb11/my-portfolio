@@ -183,7 +183,7 @@ const Footer = () => {
                 textShadow: "1px 1px 7px rgba(10,10,10,.75)",
               }}
             >
-              Siddharth Singh Bhadauriya
+              Siddharth Singh Bhadoriya
             </Typography>
             <Typography
               sx={{
@@ -370,7 +370,7 @@ const Footer = () => {
                 textAlign: "right",
               }}
             >
-              © 2024 Siddharth Singh Bhadauriya, All rights reserved.
+              © 2024 Siddharth Singh Bhadoriya, All rights reserved.
             </Typography>
           </Box>
         </Grid>
@@ -432,7 +432,7 @@ const Footer = () => {
                 textAlign: { xs: "right", sm: "right" },
               }}
             >
-              © 2024 Siddharth Singh Bhadauriya, All rights reserved.
+              © 2024 Siddharth Singh Bhadoriya, All rights reserved.
             </Typography>
           </Box>
         </Grid>

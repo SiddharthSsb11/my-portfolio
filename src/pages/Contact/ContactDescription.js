@@ -131,7 +131,7 @@ const ContactDescription = () => {
                     opacity: 0.8,
                   }}
                 >
-                  Siddharth Singh Bhadauriya
+                  Siddharth Singh Bhadoriya
                 </Typography>
               </Box>
             </Fade>
