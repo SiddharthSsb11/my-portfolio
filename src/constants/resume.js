@@ -1,3 +1,3 @@
 const resumeUrl =
-  "https://drive.google.com/file/d/13FeuON1B-FdNr_HekncoLG2aJ2XqDe0f/view?usp=sharing";
+  "https://drive.google.com/file/d/1ACSZhF3h36CXe7oXpfh3Gwsd3reImh7B/view?usp=sharing";
 export default resumeUrl;
